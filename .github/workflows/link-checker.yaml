@@ -34,8 +34,8 @@ jobs:
           node-version: 16.13.x
           cache: npm
 
-      - name: Install
-        run: npm ci
+#       - name: Install
+#         run: npm ci
 
       # Creates file "$/files.json", among others
       - name: Gather files changed
